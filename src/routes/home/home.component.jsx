@@ -1,6 +1,6 @@
-import Directory from './components/directory/directory.component';
+import Directory from '../../components/directory/directory.component';
 
-const App = () => {
+const Home = () => {
   const categories = [
     {
       id: 1,
@@ -29,7 +29,11 @@ const App = () => {
     },
   ];
 
-  return <Directory categories={categories} />;
+  return (
+    <div>
+      <Directory categories={categories} />
+    </div>
+  );
 };
 
-export default App;
+export default Home;
