@@ -2,6 +2,10 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Visit the webpage
+
+If you want to see this project online, visit [https://javiclothing.netlify.app/](https://javiclothing.netlify.app/).
+
 ## Available Scripts
 
 In the project directory, you can run:
