@@ -4,7 +4,7 @@ import {
   BackgroundImage,
   Body,
   DirectoryItemContainer,
-} from './category-item.styles.jsx';
+} from './directory-item.styles.jsx';
 
 const DirectoryItem = ({ category: { imageUrl, title, route } }) => {
   const navigate = useNavigate();

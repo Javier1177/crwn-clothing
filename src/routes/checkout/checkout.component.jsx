@@ -12,7 +12,7 @@ import {
 } from './checkout.styles.jsx';
 
 const Checkout = () => {
-  const { cartItems, totalPrice } = useContext(CartContext);
+  const { cartItems, cartTotal } = useContext(CartContext);
 
   return (
     <CheckoutContainer>
@@ -36,7 +36,7 @@ const Checkout = () => {
       {cartItems.map(item => (
         <CheckoutItem item={item} key={item.name} />
       ))}
-      <Total>Total: ${totalPrice}</Total>
+      <Total>Total: ${cartTotal}</Total>
     </CheckoutContainer>
   );
 };
